@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM MANIPULATIONN</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="device-width ,initial-scale=1.0">
+    </head>
+    <body>
+        <script>
+            // Function to calculate and display the sum
+function displaySum(a, b) {
+    const sum = a + b;
+
+    // Create an h1 element
+    const h1 = document.createElement("h1");
+    
+    // Setting the text content of the h1 element
+    h1.textContent = `The answer for the sum ${a} and ${b} is: ${sum}`;
+    
+    document.body.appendChild(h1);
+}
+
+displaySum(2, 8);
+
+        </script>
+    </body>
+</html>
